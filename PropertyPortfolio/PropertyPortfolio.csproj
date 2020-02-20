@@ -28,6 +28,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Angular\angular.json" />
+    <Content Include="Angular\e2e\tsconfig.json" />
+    <Content Include="Angular\package-lock.json" />
+    <Content Include="Angular\package.json" />
+    <Content Include="Angular\tsconfig.app.json" />
+    <Content Include="Angular\tsconfig.json" />
+    <Content Include="Angular\tsconfig.spec.json" />
+    <Content Include="Angular\tslint.json" />
     <Content Include="appsettings.Development.json" />
     <Content Include="appsettings.json" />
     <Content Include="bundleconfig.json" />
