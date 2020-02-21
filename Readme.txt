@@ -3,13 +3,17 @@ Running the WebApp
 Install latest version of Node.js
 Run the following command in Powershell/Command Prompt
 	npm install -g @angular/cli
-In Powershell/Command Prompt, navigate to PropertyPortfolio/Angular folder and run the following command
+Navigate to the PropertyPortfolio folder
+Rename Angular.App to Angular
+In Powershell/Command Prompt, navigate to PropertyPortfolio/Angular folder and run the following commands
+	npm install
 	ng build
-Again in Powershell/Command Prompt, in the same folder as above, run the following command
 	ng serve --liveReload=false
 
-Open Visual Studio (written using V2017)
+Open Visual Studio (solution created in V2017)
 Load the solution file OwnerPropertyPortfolio.sln
+In Solution Explorer, Click Show All Files
+Find the Angular Folder in the PropertyPortfolio project, right click and include in project
 Go to Debug -> Run without debugging (Note, if the build fails, run this step again.
 The web app should open in a browser.
 
