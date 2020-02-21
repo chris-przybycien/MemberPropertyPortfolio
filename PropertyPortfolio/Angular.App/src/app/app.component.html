@@ -1,0 +1,63 @@
+<div style="text-align:center">
+  <table class="table table-striped">
+    <thead class="thead-light">
+      <tr>
+        <th>
+          Owner Name
+          <select class="form-control">
+            <option value="asc">A-Z</option>
+            <option value="desc">Z-A</option>
+          </select>
+        </th>
+        <th>
+          Gender
+          <select class="form-control">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </th>
+        <th>
+          Age
+          <select class="form-control">
+            <option value="asc">Youngest to Oldest</option>
+            <option value="desc">Oldest to Youngest</option>
+          </select>
+        </th>
+        <th>
+          Property Name
+          <select class="form-control">
+            <option value="asc">A-Z</option>
+            <option value="desc">Z-A</option>
+          </select>
+        </th>
+        <th>
+          Property Type
+          <select class="form-control">
+            <option value="asc">A-Z</option>
+            <option value="desc">Z-A</option>
+          </select>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <ng-container *ngFor="let owner of owners">
+        <ng-container *ngIf="owner.properties.length > 0">
+          <tr *ngFor="let property of owner.properties">
+            <td>{{owner.name}}</td>
+            <td>{{owner.gender}}</td>
+            <td>{{owner.age}}</td>
+            <td>{{property.name}}</td>
+            <td>{{property.type}}</td>
+          </tr>
+        </ng-container>
+        <tr *ngIf="owner.properties.length == 0">
+          <td>{{owner.name}}</td>
+          <td>{{owner.gender}}</td>
+          <td>{{owner.age}}</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+      </ng-container>
+    </tbody>
+  </table>
+</div>

@@ -72,6 +72,28 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Bundles\AngularOutput\favicon.ico" />
+    <None Include="Bundles\AngularOutput\index.html" />
+    <None Include="Bundles\AngularOutput\main-es2015.js" />
+    <None Include="Bundles\AngularOutput\main-es2015.js.map" />
+    <None Include="Bundles\AngularOutput\main-es5.js" />
+    <None Include="Bundles\AngularOutput\main-es5.js.map" />
+    <None Include="Bundles\AngularOutput\polyfills-es2015.js" />
+    <None Include="Bundles\AngularOutput\polyfills-es2015.js.map" />
+    <None Include="Bundles\AngularOutput\polyfills-es5.js" />
+    <None Include="Bundles\AngularOutput\polyfills-es5.js.map" />
+    <None Include="Bundles\AngularOutput\runtime-es2015.js" />
+    <None Include="Bundles\AngularOutput\runtime-es2015.js.map" />
+    <None Include="Bundles\AngularOutput\runtime-es5.js" />
+    <None Include="Bundles\AngularOutput\runtime-es5.js.map" />
+    <None Include="Bundles\AngularOutput\styles-es2015.js" />
+    <None Include="Bundles\AngularOutput\styles-es2015.js.map" />
+    <None Include="Bundles\AngularOutput\styles-es5.js" />
+    <None Include="Bundles\AngularOutput\styles-es5.js.map" />
+    <None Include="Bundles\AngularOutput\vendor-es2015.js" />
+    <None Include="Bundles\AngularOutput\vendor-es2015.js.map" />
+    <None Include="Bundles\AngularOutput\vendor-es5.js" />
+    <None Include="Bundles\AngularOutput\vendor-es5.js.map" />
     <None Include="node_modules\.bin\tsc" />
     <None Include="node_modules\.bin\tsc.cmd" />
     <None Include="node_modules\.bin\tsc.ps1" />
